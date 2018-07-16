@@ -29,7 +29,7 @@ namespace KafkaProducer.Simple
     {
         public static void Main(string[] args)
         {
-            string brokerList = "localhost:29092";
+            string brokerList = "localhost:9092";
             string topicName = "foo2";
 
             var config = new Dictionary<string, object> { { "bootstrap.servers", brokerList } };
