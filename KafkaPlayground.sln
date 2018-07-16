@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer.Simple", "KafkaProducer.Simple\KafkaProducer.Simple.csproj", "{ACE60496-3841-4B7F-8420-0C538FDF4F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer.Simple", "KafkaConsumer.Simple\KafkaConsumer.Simple.csproj", "{D9B89743-C8C8-4B11-A6D2-B42D93163393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufHelpers", "ProtobufHelpers\ProtobufHelpers.csproj", "{23EDBBAF-4763-4CA6-BAD8-63BB8DC4513F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer.Protobuf", "KafkaProducer.Protobuf\KafkaProducer.Protobuf.csproj", "{273E8D5D-D119-47B1-A84E-F7F9831E7267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer.Protobuf", "KafkaConsumer.Protobuf\KafkaConsumer.Protobuf.csproj", "{668012C3-C832-4E2D-9635-DB007DCE20EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE60496-3841-4B7F-8420-0C538FDF4F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE60496-3841-4B7F-8420-0C538FDF4F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE60496-3841-4B7F-8420-0C538FDF4F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE60496-3841-4B7F-8420-0C538FDF4F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B89743-C8C8-4B11-A6D2-B42D93163393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B89743-C8C8-4B11-A6D2-B42D93163393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B89743-C8C8-4B11-A6D2-B42D93163393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B89743-C8C8-4B11-A6D2-B42D93163393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EDBBAF-4763-4CA6-BAD8-63BB8DC4513F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EDBBAF-4763-4CA6-BAD8-63BB8DC4513F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EDBBAF-4763-4CA6-BAD8-63BB8DC4513F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EDBBAF-4763-4CA6-BAD8-63BB8DC4513F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273E8D5D-D119-47B1-A84E-F7F9831E7267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273E8D5D-D119-47B1-A84E-F7F9831E7267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273E8D5D-D119-47B1-A84E-F7F9831E7267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273E8D5D-D119-47B1-A84E-F7F9831E7267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668012C3-C832-4E2D-9635-DB007DCE20EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668012C3-C832-4E2D-9635-DB007DCE20EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668012C3-C832-4E2D-9635-DB007DCE20EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668012C3-C832-4E2D-9635-DB007DCE20EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C35ADA-B2F6-48DA-809B-8D63449EB633}
+	EndGlobalSection
+EndGlobal

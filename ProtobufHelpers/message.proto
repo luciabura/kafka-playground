@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example.proto;
+
+enum Severity {
+    None = 0;
+    Verbose = 1;
+    Info = 2;
+    Warning = 3;
+    Error = 4;
+}
+
+message LogMsg {
+    string IP = 1;
+    string Message = 2;
+    Severity Severity = 3;
+}
