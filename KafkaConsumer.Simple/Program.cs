@@ -20,12 +20,17 @@ namespace KafkaConsumer.Simple
             var config = new Dictionary<string, object>
             {
                 { "bootstrap.servers", brokerList },
+                { "api.version.request", true},
+                { "fetch.message.max.bytes", 125829120},
+                { "queued.min.messages", 5 },
+                { "fetch.wait.max.ms", 1000},
+                { "session.timeout.ms", 299000},
+                { "enable.auto.commit", false },
+                { "receive.message.max.bytes", 603316706},
                 { "group.id", "csharp-consumer" },
-                { "enable.auto.commit", true },  // this is the default
                 { "auto.commit.interval.ms", 5000 },
                 { "statistics.interval.ms", 60000 },
-                { "session.timeout.ms", 6000 },
-                { "auto.offset.reset", "smallest" }
+                { "auto.offset.reset", "beginning" }
             };
 
             using (var consumer = new Consumer<Ignore, string>(config, null, new StringDeserializer(Encoding.UTF8)))
@@ -232,7 +237,7 @@ namespace KafkaConsumer.Simple
             
             var mode = "poll";
             var brokerList = "localhost:9092";
-            var topics = new List<string>{"foo2"};
+            var topics = new List<string>{"foo"};
 
             switch (mode)
             {

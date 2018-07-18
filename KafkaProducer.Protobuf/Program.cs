@@ -11,7 +11,7 @@ namespace KafkaProducer.Protobuf
     {
         static void Main(string[] args)
         {
-            var config = new Dictionary<string, object> { { "bootstrap.servers", "localhost:9092" } };
+            var config = new Dictionary<string, object> { { "bootstrap.servers", "10.200.0.1:29092" } };
             var topicName = "foo";
 
             using (var p = new Producer<Null, LogMsg>(config, null, new ProtoSerializer<LogMsg>()))
